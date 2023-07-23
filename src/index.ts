@@ -1,0 +1,1 @@
+export const FlashAuth = () => console.log("Flash Auth coming sooon, reach out to @codymurphyjones on twitter or github if you have further questions");

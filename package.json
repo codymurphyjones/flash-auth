@@ -1,0 +1,26 @@
+{
+  "name": "flash-auth",
+  "version": "0.0.1",
+  "description": "A library for utilizing redis to speed up authentication and assist with session management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "dist": "npm run build && npm publish",
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/codymurphyjones/enum-union/issues"
+  },
+  "homepage": "https://github.com/codymurphyjones/enum-union",
+  "author": "Cody Jones <codymurphyjones@gmail.com> (https://github.com/codymurphyjones)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "react": "^18.2.0",
+    "typescript": "^5.1.6"
+  }
+}
+
